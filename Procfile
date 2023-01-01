@@ -1,1 +1,1 @@
-web: gunicorn 'Trade.wsgi'
+web: gunicorn 'TradeApp.wsgi'

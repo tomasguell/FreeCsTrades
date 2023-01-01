@@ -1,1 +1,1 @@
-web: gunicorn 'TradeApp.wsgi'
+web: python manage.py migrate && gunicorn Trade.wsgi
